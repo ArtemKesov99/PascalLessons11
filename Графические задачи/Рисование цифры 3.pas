@@ -1,0 +1,11 @@
+﻿uses
+graphabc;
+var
+x,y,r:integer;
+begin
+x:=100;
+y:=100;
+r:=75;
+arc(x,y,r,135,-90);
+arc(x,y+2*r,r,90,-135);  
+end.

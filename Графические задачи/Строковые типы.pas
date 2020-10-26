@@ -1,0 +1,24 @@
+﻿var
+bank:string;
+postavshik:string;
+podradchik:string;
+n:integer;
+begin
+write('bank:');
+bank:='Sberbank';
+writeln('Sberbank');
+write('postavshik:');
+postavshik:='IVANOV';
+writeln('Ivanov');
+write('podradchik:');
+podradchik:='Petrov';
+writeln('Petrov');
+case n of
+1:writeln('Ivanov');
+2:writeln('Petrov');
+3:writeln('Sberbank');
+end;
+writeln(postavshik);
+writeln(podradchik);
+writeln(bank);
+end.
